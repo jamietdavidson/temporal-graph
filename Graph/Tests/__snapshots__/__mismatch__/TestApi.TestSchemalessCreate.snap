@@ -1,0 +1,3426 @@
+﻿{
+  "Kind": "SingleResult",
+  "Label": null,
+  "Path": null,
+  "Data": null,
+  "Items": null,
+  "Errors": [
+    {
+      "Message": "The field `fields` does not exist on the type `Node`.",
+      "Code": null,
+      "Path": {
+        "Name": "nodes",
+        "Parent": {
+          "Name": "updateGraph",
+          "Parent": {
+            "Length": 0,
+            "IsRoot": true
+          },
+          "Length": 1,
+          "IsRoot": false
+        },
+        "Length": 2,
+        "IsRoot": false
+      },
+      "Locations": [
+        {
+          "Line": 68,
+          "Column": 13
+        }
+      ],
+      "Extensions": {
+        "type": "Node",
+        "field": "fields",
+        "responseName": "fields",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Field-Selections-on-Objects-Interfaces-and-Unions-Types"
+      },
+      "Exception": null,
+      "SyntaxNode": {
+        "Kind": "Field",
+        "Alias": null,
+        "Arguments": [],
+        "Required": null,
+        "SelectionSet": {
+          "Kind": "SelectionSet",
+          "Location": {
+            "Start": 2413,
+            "End": 2488,
+            "Line": 68,
+            "Column": 20
+          },
+          "Selections": [
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": null,
+              "Location": {
+                "Start": 2431,
+                "End": 2456,
+                "Line": 69,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2431,
+                  "End": 2456,
+                  "Line": 69,
+                  "Column": 17
+                },
+                "Value": "key"
+              },
+              "Directives": []
+            },
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": null,
+              "Location": {
+                "Start": 2451,
+                "End": 2470,
+                "Line": 70,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2451,
+                  "End": 2470,
+                  "Line": 70,
+                  "Column": 17
+                },
+                "Value": "value"
+              },
+              "Directives": []
+            }
+          ]
+        },
+        "Location": {
+          "Start": 2406,
+          "End": 2488,
+          "Line": 68,
+          "Column": 13
+        },
+        "Name": {
+          "Kind": "Name",
+          "Location": {
+            "Start": 2406,
+            "End": 2414,
+            "Line": 68,
+            "Column": 13
+          },
+          "Value": "fields"
+        },
+        "Directives": []
+      }
+    },
+    {
+      "Message": "The field `fields` does not exist on the type `Node`.",
+      "Code": null,
+      "Path": {
+        "Name": "createdNodes",
+        "Parent": {
+          "Name": "additionalContext",
+          "Parent": {
+            "Name": "updateGraph",
+            "Parent": {
+              "Length": 0,
+              "IsRoot": true
+            },
+            "Length": 1,
+            "IsRoot": false
+          },
+          "Length": 2,
+          "IsRoot": false
+        },
+        "Length": 3,
+        "IsRoot": false
+      },
+      "Locations": [
+        {
+          "Line": 68,
+          "Column": 13
+        }
+      ],
+      "Extensions": {
+        "type": "Node",
+        "field": "fields",
+        "responseName": "fields",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Field-Selections-on-Objects-Interfaces-and-Unions-Types"
+      },
+      "Exception": null,
+      "SyntaxNode": {
+        "Kind": "Field",
+        "Alias": null,
+        "Arguments": [],
+        "Required": null,
+        "SelectionSet": {
+          "Kind": "SelectionSet",
+          "Location": {
+            "Start": 2413,
+            "End": 2488,
+            "Line": 68,
+            "Column": 20
+          },
+          "Selections": [
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": null,
+              "Location": {
+                "Start": 2431,
+                "End": 2456,
+                "Line": 69,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2431,
+                  "End": 2456,
+                  "Line": 69,
+                  "Column": 17
+                },
+                "Value": "key"
+              },
+              "Directives": []
+            },
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": null,
+              "Location": {
+                "Start": 2451,
+                "End": 2470,
+                "Line": 70,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2451,
+                  "End": 2470,
+                  "Line": 70,
+                  "Column": 17
+                },
+                "Value": "value"
+              },
+              "Directives": []
+            }
+          ]
+        },
+        "Location": {
+          "Start": 2406,
+          "End": 2488,
+          "Line": 68,
+          "Column": 13
+        },
+        "Name": {
+          "Kind": "Name",
+          "Location": {
+            "Start": 2406,
+            "End": 2414,
+            "Line": 68,
+            "Column": 13
+          },
+          "Value": "fields"
+        },
+        "Directives": []
+      }
+    },
+    {
+      "Message": "The argument `stateMapId` is required.",
+      "Code": null,
+      "Path": null,
+      "Locations": [
+        {
+          "Line": 2,
+          "Column": 13
+        }
+      ],
+      "Extensions": {
+        "type": "Mutation",
+        "field": "updateGraph",
+        "argument": "stateMapId",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Required-Arguments"
+      },
+      "Exception": null,
+      "SyntaxNode": {
+        "Kind": "Field",
+        "Alias": null,
+        "Arguments": [
+          {
+            "Kind": "Argument",
+            "Location": {
+              "Start": 53,
+              "End": 2024,
+              "Line": 3,
+              "Column": 17
+            },
+            "Name": {
+              "Kind": "Name",
+              "Location": {
+                "Start": 53,
+                "End": 64,
+                "Line": 3,
+                "Column": 17
+              },
+              "Value": "operations"
+            },
+            "Value": {
+              "Kind": "ObjectValue",
+              "Location": {
+                "Start": 65,
+                "End": 2024,
+                "Line": 3,
+                "Column": 29
+              },
+              "Fields": [
+                {
+                  "Kind": "ObjectField",
+                  "Location": {
+                    "Start": 87,
+                    "End": 1097,
+                    "Line": 4,
+                    "Column": 21
+                  },
+                  "Name": {
+                    "Kind": "Name",
+                    "Location": {
+                      "Start": 87,
+                      "End": 97,
+                      "Line": 4,
+                      "Column": 21
+                    },
+                    "Value": "creations"
+                  },
+                  "Value": {
+                    "Kind": "ListValue",
+                    "Location": {
+                      "Start": 98,
+                      "End": 1097,
+                      "Line": 4,
+                      "Column": 32
+                    },
+                    "Items": [
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 124,
+                          "End": 799,
+                          "Line": 5,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 154,
+                              "End": 204,
+                              "Line": 6,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 154,
+                                "End": 158,
+                                "Line": 6,
+                                "Column": 29
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 159,
+                                "End": 204,
+                                "Line": 6,
+                                "Column": 34
+                              },
+                              "Value": "Bicycle",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 198,
+                              "End": 772,
+                              "Line": 7,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 198,
+                                "End": 205,
+                                "Line": 7,
+                                "Column": 29
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 206,
+                                "End": 772,
+                                "Line": 7,
+                                "Column": 37
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "ObjectValue",
+                                  "Location": {
+                                    "Start": 240,
+                                    "End": 414,
+                                    "Line": 8,
+                                    "Column": 33
+                                  },
+                                  "Fields": [
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 278,
+                                        "End": 332,
+                                        "Line": 9,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 278,
+                                          "End": 282,
+                                          "Line": 9,
+                                          "Column": 37
+                                        },
+                                        "Value": "key"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 283,
+                                          "End": 332,
+                                          "Line": 9,
+                                          "Column": 42
+                                        },
+                                        "Value": "Name",
+                                        "Block": false
+                                      }
+                                    },
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 327,
+                                        "End": 379,
+                                        "Line": 10,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 327,
+                                          "End": 333,
+                                          "Line": 10,
+                                          "Column": 37
+                                        },
+                                        "Value": "value"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 334,
+                                          "End": 379,
+                                          "Line": 10,
+                                          "Column": 44
+                                        },
+                                        "Value": "Speedster",
+                                        "Block": false
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Kind": "ObjectValue",
+                                  "Location": {
+                                    "Start": 413,
+                                    "End": 582,
+                                    "Line": 12,
+                                    "Column": 33
+                                  },
+                                  "Fields": [
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 451,
+                                        "End": 506,
+                                        "Line": 13,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 451,
+                                          "End": 455,
+                                          "Line": 13,
+                                          "Column": 37
+                                        },
+                                        "Value": "key"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 456,
+                                          "End": 506,
+                                          "Line": 13,
+                                          "Column": 42
+                                        },
+                                        "Value": "Color",
+                                        "Block": false
+                                      }
+                                    },
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 501,
+                                        "End": 547,
+                                        "Line": 14,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 501,
+                                          "End": 507,
+                                          "Line": 14,
+                                          "Column": 37
+                                        },
+                                        "Value": "value"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 508,
+                                          "End": 547,
+                                          "Line": 14,
+                                          "Column": 44
+                                        },
+                                        "Value": "Red",
+                                        "Block": false
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Kind": "ObjectValue",
+                                  "Location": {
+                                    "Start": 581,
+                                    "End": 746,
+                                    "Line": 16,
+                                    "Column": 33
+                                  },
+                                  "Fields": [
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 619,
+                                        "End": 674,
+                                        "Line": 17,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 619,
+                                          "End": 623,
+                                          "Line": 17,
+                                          "Column": 37
+                                        },
+                                        "Value": "key"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 624,
+                                          "End": 674,
+                                          "Line": 17,
+                                          "Column": 42
+                                        },
+                                        "Value": "Price",
+                                        "Block": false
+                                      }
+                                    },
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 669,
+                                        "End": 716,
+                                        "Line": 18,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 669,
+                                          "End": 675,
+                                          "Line": 18,
+                                          "Column": 37
+                                        },
+                                        "Value": "value"
+                                      },
+                                      "Value": {
+                                        "Kind": "FloatValue",
+                                        "Location": {
+                                          "Start": 676,
+                                          "End": 716,
+                                          "Line": 18,
+                                          "Column": 44
+                                        },
+                                        "Format": "FixedPoint",
+                                        "Value": "999.99"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 798,
+                          "End": 854,
+                          "Line": 22,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 800,
+                              "End": 821,
+                              "Line": 22,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 800,
+                                "End": 804,
+                                "Line": 22,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 805,
+                                "End": 821,
+                                "Line": 22,
+                                "Column": 32
+                              },
+                              "Value": "Saddle",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 815,
+                              "End": 827,
+                              "Line": 22,
+                              "Column": 42
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 815,
+                                "End": 822,
+                                "Line": 22,
+                                "Column": 42
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 823,
+                                "End": 827,
+                                "Line": 22,
+                                "Column": 50
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 853,
+                          "End": 908,
+                          "Line": 23,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 855,
+                              "End": 875,
+                              "Line": 23,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 855,
+                                "End": 859,
+                                "Line": 23,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 860,
+                                "End": 875,
+                                "Line": 23,
+                                "Column": 32
+                              },
+                              "Value": "Wheel",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 869,
+                              "End": 881,
+                              "Line": 23,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 869,
+                                "End": 876,
+                                "Line": 23,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 877,
+                                "End": 881,
+                                "Line": 23,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 907,
+                          "End": 962,
+                          "Line": 24,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 909,
+                              "End": 929,
+                              "Line": 24,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 909,
+                                "End": 913,
+                                "Line": 24,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 914,
+                                "End": 929,
+                                "Line": 24,
+                                "Column": 32
+                              },
+                              "Value": "Wheel",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 923,
+                              "End": 935,
+                              "Line": 24,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 923,
+                                "End": 930,
+                                "Line": 24,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 931,
+                                "End": 935,
+                                "Line": 24,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 961,
+                          "End": 1016,
+                          "Line": 25,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 963,
+                              "End": 983,
+                              "Line": 25,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 963,
+                                "End": 967,
+                                "Line": 25,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 968,
+                                "End": 983,
+                                "Line": 25,
+                                "Column": 32
+                              },
+                              "Value": "Spoke",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 977,
+                              "End": 989,
+                              "Line": 25,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 977,
+                                "End": 984,
+                                "Line": 25,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 985,
+                                "End": 989,
+                                "Line": 25,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1015,
+                          "End": 1065,
+                          "Line": 26,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1017,
+                              "End": 1037,
+                              "Line": 26,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1017,
+                                "End": 1021,
+                                "Line": 26,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1022,
+                                "End": 1037,
+                                "Line": 26,
+                                "Column": 32
+                              },
+                              "Value": "Spoke",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1031,
+                              "End": 1043,
+                              "Line": 26,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1031,
+                                "End": 1038,
+                                "Line": 26,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1039,
+                                "End": 1043,
+                                "Line": 26,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Kind": "ObjectField",
+                  "Location": {
+                    "Start": 1087,
+                    "End": 1362,
+                    "Line": 28,
+                    "Column": 21
+                  },
+                  "Name": {
+                    "Kind": "Name",
+                    "Location": {
+                      "Start": 1087,
+                      "End": 1098,
+                      "Line": 28,
+                      "Column": 21
+                    },
+                    "Value": "edgesToSet"
+                  },
+                  "Value": {
+                    "Kind": "ListValue",
+                    "Location": {
+                      "Start": 1099,
+                      "End": 1362,
+                      "Line": 28,
+                      "Column": 33
+                    },
+                    "Items": [
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1125,
+                          "End": 1318,
+                          "Line": 29,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1155,
+                              "End": 1226,
+                              "Line": 30,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1155,
+                                "End": 1176,
+                                "Line": 30,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1177,
+                                "End": 1226,
+                                "Line": 30,
+                                "Column": 51
+                              },
+                              "Value": "0"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1208,
+                              "End": 1262,
+                              "Line": 31,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1208,
+                                "End": 1227,
+                                "Line": 31,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1228,
+                                "End": 1262,
+                                "Line": 31,
+                                "Column": 49
+                              },
+                              "Value": "1"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1259,
+                              "End": 1296,
+                              "Line": 32,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1259,
+                                "End": 1263,
+                                "Line": 32,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1264,
+                                "End": 1296,
+                                "Line": 32,
+                                "Column": 34
+                              },
+                              "Value": "Seat",
+                              "Block": false
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Kind": "ObjectField",
+                  "Location": {
+                    "Start": 1339,
+                    "End": 2010,
+                    "Line": 35,
+                    "Column": 21
+                  },
+                  "Name": {
+                    "Kind": "Name",
+                    "Location": {
+                      "Start": 1339,
+                      "End": 1363,
+                      "Line": 35,
+                      "Column": 21
+                    },
+                    "Value": "edgeCollectionAdditions"
+                  },
+                  "Value": {
+                    "Kind": "ListValue",
+                    "Location": {
+                      "Start": 1364,
+                      "End": 2010,
+                      "Line": 35,
+                      "Column": 46
+                    },
+                    "Items": [
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1390,
+                          "End": 1595,
+                          "Line": 36,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1420,
+                              "End": 1482,
+                              "Line": 37,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1420,
+                                "End": 1424,
+                                "Line": 37,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1425,
+                                "End": 1482,
+                                "Line": 37,
+                                "Column": 34
+                              },
+                              "Value": "Wheels",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1462,
+                              "End": 1534,
+                              "Line": 38,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1462,
+                                "End": 1483,
+                                "Line": 38,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1484,
+                                "End": 1534,
+                                "Line": 38,
+                                "Column": 51
+                              },
+                              "Value": "0"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1514,
+                              "End": 1568,
+                              "Line": 39,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1514,
+                                "End": 1535,
+                                "Line": 39,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndices"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1536,
+                                "End": 1568,
+                                "Line": 39,
+                                "Column": 51
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1537,
+                                    "End": 1541,
+                                    "Line": 39,
+                                    "Column": 52
+                                  },
+                                  "Value": "2"
+                                },
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1540,
+                                    "End": 1542,
+                                    "Line": 39,
+                                    "Column": 55
+                                  },
+                                  "Value": "3"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1594,
+                          "End": 1796,
+                          "Line": 41,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1624,
+                              "End": 1686,
+                              "Line": 42,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1624,
+                                "End": 1628,
+                                "Line": 42,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1629,
+                                "End": 1686,
+                                "Line": 42,
+                                "Column": 34
+                              },
+                              "Value": "Spokes",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1666,
+                              "End": 1738,
+                              "Line": 43,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1666,
+                                "End": 1687,
+                                "Line": 43,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1688,
+                                "End": 1738,
+                                "Line": 43,
+                                "Column": 51
+                              },
+                              "Value": "2"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1718,
+                              "End": 1769,
+                              "Line": 44,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1718,
+                                "End": 1739,
+                                "Line": 44,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndices"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1740,
+                                "End": 1769,
+                                "Line": 44,
+                                "Column": 51
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1741,
+                                    "End": 1743,
+                                    "Line": 44,
+                                    "Column": 52
+                                  },
+                                  "Value": "4"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1795,
+                          "End": 1992,
+                          "Line": 46,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1825,
+                              "End": 1887,
+                              "Line": 47,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1825,
+                                "End": 1829,
+                                "Line": 47,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1830,
+                                "End": 1887,
+                                "Line": 47,
+                                "Column": 34
+                              },
+                              "Value": "Spokes",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1867,
+                              "End": 1939,
+                              "Line": 48,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1867,
+                                "End": 1888,
+                                "Line": 48,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1889,
+                                "End": 1939,
+                                "Line": 48,
+                                "Column": 51
+                              },
+                              "Value": "2"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1919,
+                              "End": 1970,
+                              "Line": 49,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1919,
+                                "End": 1940,
+                                "Line": 49,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndices"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1941,
+                                "End": 1970,
+                                "Line": 49,
+                                "Column": 51
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1942,
+                                    "End": 1944,
+                                    "Line": 49,
+                                    "Column": 52
+                                  },
+                                  "Value": "5"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Required": null,
+        "SelectionSet": {
+          "Kind": "SelectionSet",
+          "Location": {
+            "Start": 2025,
+            "End": 2336,
+            "Line": 53,
+            "Column": 15
+          },
+          "Selections": [
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": null,
+              "Location": {
+                "Start": 2043,
+                "End": 2070,
+                "Line": 54,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2043,
+                  "End": 2070,
+                  "Line": 54,
+                  "Column": 17
+                },
+                "Value": "state"
+              },
+              "Directives": []
+            },
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": {
+                "Kind": "SelectionSet",
+                "Location": {
+                  "Start": 2071,
+                  "End": 2160,
+                  "Line": 55,
+                  "Column": 23
+                },
+                "Selections": [
+                  {
+                    "Kind": "FragmentSpread",
+                    "Location": {
+                      "Start": 2093,
+                      "End": 2126,
+                      "Line": 56,
+                      "Column": 21
+                    },
+                    "Name": {
+                      "Kind": "Name",
+                      "Location": {
+                        "Start": 2096,
+                        "End": 2126,
+                        "Line": 56,
+                        "Column": 24
+                      },
+                      "Value": "NodeFragment"
+                    },
+                    "Directives": []
+                  }
+                ]
+              },
+              "Location": {
+                "Start": 2065,
+                "End": 2160,
+                "Line": 55,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2065,
+                  "End": 2072,
+                  "Line": 55,
+                  "Column": 17
+                },
+                "Value": "nodes"
+              },
+              "Directives": []
+            },
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": {
+                "Kind": "SelectionSet",
+                "Location": {
+                  "Start": 2161,
+                  "End": 2326,
+                  "Line": 58,
+                  "Column": 35
+                },
+                "Selections": [
+                  {
+                    "Kind": "Field",
+                    "Alias": null,
+                    "Arguments": [],
+                    "Required": null,
+                    "SelectionSet": {
+                      "Kind": "SelectionSet",
+                      "Location": {
+                        "Start": 2196,
+                        "End": 2294,
+                        "Line": 59,
+                        "Column": 34
+                      },
+                      "Selections": [
+                        {
+                          "Kind": "FragmentSpread",
+                          "Location": {
+                            "Start": 2222,
+                            "End": 2259,
+                            "Line": 60,
+                            "Column": 25
+                          },
+                          "Name": {
+                            "Kind": "Name",
+                            "Location": {
+                              "Start": 2225,
+                              "End": 2259,
+                              "Line": 60,
+                              "Column": 28
+                            },
+                            "Value": "NodeFragment"
+                          },
+                          "Directives": []
+                        }
+                      ]
+                    },
+                    "Location": {
+                      "Start": 2183,
+                      "End": 2294,
+                      "Line": 59,
+                      "Column": 21
+                    },
+                    "Name": {
+                      "Kind": "Name",
+                      "Location": {
+                        "Start": 2183,
+                        "End": 2197,
+                        "Line": 59,
+                        "Column": 21
+                      },
+                      "Value": "createdNodes"
+                    },
+                    "Directives": []
+                  },
+                  {
+                    "Kind": "Field",
+                    "Alias": null,
+                    "Arguments": [],
+                    "Required": null,
+                    "SelectionSet": null,
+                    "Location": {
+                      "Start": 2280,
+                      "End": 2312,
+                      "Line": 62,
+                      "Column": 21
+                    },
+                    "Name": {
+                      "Kind": "Name",
+                      "Location": {
+                        "Start": 2280,
+                        "End": 2312,
+                        "Line": 62,
+                        "Column": 21
+                      },
+                      "Value": "deletedNodeIds"
+                    },
+                    "Directives": []
+                  }
+                ]
+              },
+              "Location": {
+                "Start": 2143,
+                "End": 2326,
+                "Line": 58,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2143,
+                  "End": 2162,
+                  "Line": 58,
+                  "Column": 17
+                },
+                "Value": "additionalContext"
+              },
+              "Directives": []
+            }
+          ]
+        },
+        "Location": {
+          "Start": 23,
+          "End": 2336,
+          "Line": 2,
+          "Column": 13
+        },
+        "Name": {
+          "Kind": "Name",
+          "Location": {
+            "Start": 23,
+            "End": 36,
+            "Line": 2,
+            "Column": 13
+          },
+          "Value": "updateGraph"
+        },
+        "Directives": []
+      }
+    },
+    {
+      "Message": "The argument `partyId` is required.",
+      "Code": null,
+      "Path": null,
+      "Locations": [
+        {
+          "Line": 2,
+          "Column": 13
+        }
+      ],
+      "Extensions": {
+        "type": "Mutation",
+        "field": "updateGraph",
+        "argument": "partyId",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Required-Arguments"
+      },
+      "Exception": null,
+      "SyntaxNode": {
+        "Kind": "Field",
+        "Alias": null,
+        "Arguments": [
+          {
+            "Kind": "Argument",
+            "Location": {
+              "Start": 53,
+              "End": 2024,
+              "Line": 3,
+              "Column": 17
+            },
+            "Name": {
+              "Kind": "Name",
+              "Location": {
+                "Start": 53,
+                "End": 64,
+                "Line": 3,
+                "Column": 17
+              },
+              "Value": "operations"
+            },
+            "Value": {
+              "Kind": "ObjectValue",
+              "Location": {
+                "Start": 65,
+                "End": 2024,
+                "Line": 3,
+                "Column": 29
+              },
+              "Fields": [
+                {
+                  "Kind": "ObjectField",
+                  "Location": {
+                    "Start": 87,
+                    "End": 1097,
+                    "Line": 4,
+                    "Column": 21
+                  },
+                  "Name": {
+                    "Kind": "Name",
+                    "Location": {
+                      "Start": 87,
+                      "End": 97,
+                      "Line": 4,
+                      "Column": 21
+                    },
+                    "Value": "creations"
+                  },
+                  "Value": {
+                    "Kind": "ListValue",
+                    "Location": {
+                      "Start": 98,
+                      "End": 1097,
+                      "Line": 4,
+                      "Column": 32
+                    },
+                    "Items": [
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 124,
+                          "End": 799,
+                          "Line": 5,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 154,
+                              "End": 204,
+                              "Line": 6,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 154,
+                                "End": 158,
+                                "Line": 6,
+                                "Column": 29
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 159,
+                                "End": 204,
+                                "Line": 6,
+                                "Column": 34
+                              },
+                              "Value": "Bicycle",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 198,
+                              "End": 772,
+                              "Line": 7,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 198,
+                                "End": 205,
+                                "Line": 7,
+                                "Column": 29
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 206,
+                                "End": 772,
+                                "Line": 7,
+                                "Column": 37
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "ObjectValue",
+                                  "Location": {
+                                    "Start": 240,
+                                    "End": 414,
+                                    "Line": 8,
+                                    "Column": 33
+                                  },
+                                  "Fields": [
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 278,
+                                        "End": 332,
+                                        "Line": 9,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 278,
+                                          "End": 282,
+                                          "Line": 9,
+                                          "Column": 37
+                                        },
+                                        "Value": "key"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 283,
+                                          "End": 332,
+                                          "Line": 9,
+                                          "Column": 42
+                                        },
+                                        "Value": "Name",
+                                        "Block": false
+                                      }
+                                    },
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 327,
+                                        "End": 379,
+                                        "Line": 10,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 327,
+                                          "End": 333,
+                                          "Line": 10,
+                                          "Column": 37
+                                        },
+                                        "Value": "value"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 334,
+                                          "End": 379,
+                                          "Line": 10,
+                                          "Column": 44
+                                        },
+                                        "Value": "Speedster",
+                                        "Block": false
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Kind": "ObjectValue",
+                                  "Location": {
+                                    "Start": 413,
+                                    "End": 582,
+                                    "Line": 12,
+                                    "Column": 33
+                                  },
+                                  "Fields": [
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 451,
+                                        "End": 506,
+                                        "Line": 13,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 451,
+                                          "End": 455,
+                                          "Line": 13,
+                                          "Column": 37
+                                        },
+                                        "Value": "key"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 456,
+                                          "End": 506,
+                                          "Line": 13,
+                                          "Column": 42
+                                        },
+                                        "Value": "Color",
+                                        "Block": false
+                                      }
+                                    },
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 501,
+                                        "End": 547,
+                                        "Line": 14,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 501,
+                                          "End": 507,
+                                          "Line": 14,
+                                          "Column": 37
+                                        },
+                                        "Value": "value"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 508,
+                                          "End": 547,
+                                          "Line": 14,
+                                          "Column": 44
+                                        },
+                                        "Value": "Red",
+                                        "Block": false
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "Kind": "ObjectValue",
+                                  "Location": {
+                                    "Start": 581,
+                                    "End": 746,
+                                    "Line": 16,
+                                    "Column": 33
+                                  },
+                                  "Fields": [
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 619,
+                                        "End": 674,
+                                        "Line": 17,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 619,
+                                          "End": 623,
+                                          "Line": 17,
+                                          "Column": 37
+                                        },
+                                        "Value": "key"
+                                      },
+                                      "Value": {
+                                        "Kind": "StringValue",
+                                        "Location": {
+                                          "Start": 624,
+                                          "End": 674,
+                                          "Line": 17,
+                                          "Column": 42
+                                        },
+                                        "Value": "Price",
+                                        "Block": false
+                                      }
+                                    },
+                                    {
+                                      "Kind": "ObjectField",
+                                      "Location": {
+                                        "Start": 669,
+                                        "End": 716,
+                                        "Line": 18,
+                                        "Column": 37
+                                      },
+                                      "Name": {
+                                        "Kind": "Name",
+                                        "Location": {
+                                          "Start": 669,
+                                          "End": 675,
+                                          "Line": 18,
+                                          "Column": 37
+                                        },
+                                        "Value": "value"
+                                      },
+                                      "Value": {
+                                        "Kind": "FloatValue",
+                                        "Location": {
+                                          "Start": 676,
+                                          "End": 716,
+                                          "Line": 18,
+                                          "Column": 44
+                                        },
+                                        "Format": "FixedPoint",
+                                        "Value": "999.99"
+                                      }
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 798,
+                          "End": 854,
+                          "Line": 22,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 800,
+                              "End": 821,
+                              "Line": 22,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 800,
+                                "End": 804,
+                                "Line": 22,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 805,
+                                "End": 821,
+                                "Line": 22,
+                                "Column": 32
+                              },
+                              "Value": "Saddle",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 815,
+                              "End": 827,
+                              "Line": 22,
+                              "Column": 42
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 815,
+                                "End": 822,
+                                "Line": 22,
+                                "Column": 42
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 823,
+                                "End": 827,
+                                "Line": 22,
+                                "Column": 50
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 853,
+                          "End": 908,
+                          "Line": 23,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 855,
+                              "End": 875,
+                              "Line": 23,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 855,
+                                "End": 859,
+                                "Line": 23,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 860,
+                                "End": 875,
+                                "Line": 23,
+                                "Column": 32
+                              },
+                              "Value": "Wheel",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 869,
+                              "End": 881,
+                              "Line": 23,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 869,
+                                "End": 876,
+                                "Line": 23,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 877,
+                                "End": 881,
+                                "Line": 23,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 907,
+                          "End": 962,
+                          "Line": 24,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 909,
+                              "End": 929,
+                              "Line": 24,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 909,
+                                "End": 913,
+                                "Line": 24,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 914,
+                                "End": 929,
+                                "Line": 24,
+                                "Column": 32
+                              },
+                              "Value": "Wheel",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 923,
+                              "End": 935,
+                              "Line": 24,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 923,
+                                "End": 930,
+                                "Line": 24,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 931,
+                                "End": 935,
+                                "Line": 24,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 961,
+                          "End": 1016,
+                          "Line": 25,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 963,
+                              "End": 983,
+                              "Line": 25,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 963,
+                                "End": 967,
+                                "Line": 25,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 968,
+                                "End": 983,
+                                "Line": 25,
+                                "Column": 32
+                              },
+                              "Value": "Spoke",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 977,
+                              "End": 989,
+                              "Line": 25,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 977,
+                                "End": 984,
+                                "Line": 25,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 985,
+                                "End": 989,
+                                "Line": 25,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1015,
+                          "End": 1065,
+                          "Line": 26,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1017,
+                              "End": 1037,
+                              "Line": 26,
+                              "Column": 27
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1017,
+                                "End": 1021,
+                                "Line": 26,
+                                "Column": 27
+                              },
+                              "Value": "tag"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1022,
+                                "End": 1037,
+                                "Line": 26,
+                                "Column": 32
+                              },
+                              "Value": "Spoke",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1031,
+                              "End": 1043,
+                              "Line": 26,
+                              "Column": 41
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1031,
+                                "End": 1038,
+                                "Line": 26,
+                                "Column": 41
+                              },
+                              "Value": "fields"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1039,
+                                "End": 1043,
+                                "Line": 26,
+                                "Column": 49
+                              },
+                              "Items": []
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Kind": "ObjectField",
+                  "Location": {
+                    "Start": 1087,
+                    "End": 1362,
+                    "Line": 28,
+                    "Column": 21
+                  },
+                  "Name": {
+                    "Kind": "Name",
+                    "Location": {
+                      "Start": 1087,
+                      "End": 1098,
+                      "Line": 28,
+                      "Column": 21
+                    },
+                    "Value": "edgesToSet"
+                  },
+                  "Value": {
+                    "Kind": "ListValue",
+                    "Location": {
+                      "Start": 1099,
+                      "End": 1362,
+                      "Line": 28,
+                      "Column": 33
+                    },
+                    "Items": [
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1125,
+                          "End": 1318,
+                          "Line": 29,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1155,
+                              "End": 1226,
+                              "Line": 30,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1155,
+                                "End": 1176,
+                                "Line": 30,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1177,
+                                "End": 1226,
+                                "Line": 30,
+                                "Column": 51
+                              },
+                              "Value": "0"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1208,
+                              "End": 1262,
+                              "Line": 31,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1208,
+                                "End": 1227,
+                                "Line": 31,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1228,
+                                "End": 1262,
+                                "Line": 31,
+                                "Column": 49
+                              },
+                              "Value": "1"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1259,
+                              "End": 1296,
+                              "Line": 32,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1259,
+                                "End": 1263,
+                                "Line": 32,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1264,
+                                "End": 1296,
+                                "Line": 32,
+                                "Column": 34
+                              },
+                              "Value": "Seat",
+                              "Block": false
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Kind": "ObjectField",
+                  "Location": {
+                    "Start": 1339,
+                    "End": 2010,
+                    "Line": 35,
+                    "Column": 21
+                  },
+                  "Name": {
+                    "Kind": "Name",
+                    "Location": {
+                      "Start": 1339,
+                      "End": 1363,
+                      "Line": 35,
+                      "Column": 21
+                    },
+                    "Value": "edgeCollectionAdditions"
+                  },
+                  "Value": {
+                    "Kind": "ListValue",
+                    "Location": {
+                      "Start": 1364,
+                      "End": 2010,
+                      "Line": 35,
+                      "Column": 46
+                    },
+                    "Items": [
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1390,
+                          "End": 1595,
+                          "Line": 36,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1420,
+                              "End": 1482,
+                              "Line": 37,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1420,
+                                "End": 1424,
+                                "Line": 37,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1425,
+                                "End": 1482,
+                                "Line": 37,
+                                "Column": 34
+                              },
+                              "Value": "Wheels",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1462,
+                              "End": 1534,
+                              "Line": 38,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1462,
+                                "End": 1483,
+                                "Line": 38,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1484,
+                                "End": 1534,
+                                "Line": 38,
+                                "Column": 51
+                              },
+                              "Value": "0"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1514,
+                              "End": 1568,
+                              "Line": 39,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1514,
+                                "End": 1535,
+                                "Line": 39,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndices"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1536,
+                                "End": 1568,
+                                "Line": 39,
+                                "Column": 51
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1537,
+                                    "End": 1541,
+                                    "Line": 39,
+                                    "Column": 52
+                                  },
+                                  "Value": "2"
+                                },
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1540,
+                                    "End": 1542,
+                                    "Line": 39,
+                                    "Column": 55
+                                  },
+                                  "Value": "3"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1594,
+                          "End": 1796,
+                          "Line": 41,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1624,
+                              "End": 1686,
+                              "Line": 42,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1624,
+                                "End": 1628,
+                                "Line": 42,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1629,
+                                "End": 1686,
+                                "Line": 42,
+                                "Column": 34
+                              },
+                              "Value": "Spokes",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1666,
+                              "End": 1738,
+                              "Line": 43,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1666,
+                                "End": 1687,
+                                "Line": 43,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1688,
+                                "End": 1738,
+                                "Line": 43,
+                                "Column": 51
+                              },
+                              "Value": "2"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1718,
+                              "End": 1769,
+                              "Line": 44,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1718,
+                                "End": 1739,
+                                "Line": 44,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndices"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1740,
+                                "End": 1769,
+                                "Line": 44,
+                                "Column": 51
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1741,
+                                    "End": 1743,
+                                    "Line": 44,
+                                    "Column": 52
+                                  },
+                                  "Value": "4"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Kind": "ObjectValue",
+                        "Location": {
+                          "Start": 1795,
+                          "End": 1992,
+                          "Line": 46,
+                          "Column": 25
+                        },
+                        "Fields": [
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1825,
+                              "End": 1887,
+                              "Line": 47,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1825,
+                                "End": 1829,
+                                "Line": 47,
+                                "Column": 29
+                              },
+                              "Value": "key"
+                            },
+                            "Value": {
+                              "Kind": "StringValue",
+                              "Location": {
+                                "Start": 1830,
+                                "End": 1887,
+                                "Line": 47,
+                                "Column": 34
+                              },
+                              "Value": "Spokes",
+                              "Block": false
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1867,
+                              "End": 1939,
+                              "Line": 48,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1867,
+                                "End": 1888,
+                                "Line": 48,
+                                "Column": 29
+                              },
+                              "Value": "fromCreatedNodeIndex"
+                            },
+                            "Value": {
+                              "Kind": "IntValue",
+                              "Location": {
+                                "Start": 1889,
+                                "End": 1939,
+                                "Line": 48,
+                                "Column": 51
+                              },
+                              "Value": "2"
+                            }
+                          },
+                          {
+                            "Kind": "ObjectField",
+                            "Location": {
+                              "Start": 1919,
+                              "End": 1970,
+                              "Line": 49,
+                              "Column": 29
+                            },
+                            "Name": {
+                              "Kind": "Name",
+                              "Location": {
+                                "Start": 1919,
+                                "End": 1940,
+                                "Line": 49,
+                                "Column": 29
+                              },
+                              "Value": "toCreatedNodeIndices"
+                            },
+                            "Value": {
+                              "Kind": "ListValue",
+                              "Location": {
+                                "Start": 1941,
+                                "End": 1970,
+                                "Line": 49,
+                                "Column": 51
+                              },
+                              "Items": [
+                                {
+                                  "Kind": "IntValue",
+                                  "Location": {
+                                    "Start": 1942,
+                                    "End": 1944,
+                                    "Line": 49,
+                                    "Column": 52
+                                  },
+                                  "Value": "5"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "Required": null,
+        "SelectionSet": {
+          "Kind": "SelectionSet",
+          "Location": {
+            "Start": 2025,
+            "End": 2336,
+            "Line": 53,
+            "Column": 15
+          },
+          "Selections": [
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": null,
+              "Location": {
+                "Start": 2043,
+                "End": 2070,
+                "Line": 54,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2043,
+                  "End": 2070,
+                  "Line": 54,
+                  "Column": 17
+                },
+                "Value": "state"
+              },
+              "Directives": []
+            },
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": {
+                "Kind": "SelectionSet",
+                "Location": {
+                  "Start": 2071,
+                  "End": 2160,
+                  "Line": 55,
+                  "Column": 23
+                },
+                "Selections": [
+                  {
+                    "Kind": "FragmentSpread",
+                    "Location": {
+                      "Start": 2093,
+                      "End": 2126,
+                      "Line": 56,
+                      "Column": 21
+                    },
+                    "Name": {
+                      "Kind": "Name",
+                      "Location": {
+                        "Start": 2096,
+                        "End": 2126,
+                        "Line": 56,
+                        "Column": 24
+                      },
+                      "Value": "NodeFragment"
+                    },
+                    "Directives": []
+                  }
+                ]
+              },
+              "Location": {
+                "Start": 2065,
+                "End": 2160,
+                "Line": 55,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2065,
+                  "End": 2072,
+                  "Line": 55,
+                  "Column": 17
+                },
+                "Value": "nodes"
+              },
+              "Directives": []
+            },
+            {
+              "Kind": "Field",
+              "Alias": null,
+              "Arguments": [],
+              "Required": null,
+              "SelectionSet": {
+                "Kind": "SelectionSet",
+                "Location": {
+                  "Start": 2161,
+                  "End": 2326,
+                  "Line": 58,
+                  "Column": 35
+                },
+                "Selections": [
+                  {
+                    "Kind": "Field",
+                    "Alias": null,
+                    "Arguments": [],
+                    "Required": null,
+                    "SelectionSet": {
+                      "Kind": "SelectionSet",
+                      "Location": {
+                        "Start": 2196,
+                        "End": 2294,
+                        "Line": 59,
+                        "Column": 34
+                      },
+                      "Selections": [
+                        {
+                          "Kind": "FragmentSpread",
+                          "Location": {
+                            "Start": 2222,
+                            "End": 2259,
+                            "Line": 60,
+                            "Column": 25
+                          },
+                          "Name": {
+                            "Kind": "Name",
+                            "Location": {
+                              "Start": 2225,
+                              "End": 2259,
+                              "Line": 60,
+                              "Column": 28
+                            },
+                            "Value": "NodeFragment"
+                          },
+                          "Directives": []
+                        }
+                      ]
+                    },
+                    "Location": {
+                      "Start": 2183,
+                      "End": 2294,
+                      "Line": 59,
+                      "Column": 21
+                    },
+                    "Name": {
+                      "Kind": "Name",
+                      "Location": {
+                        "Start": 2183,
+                        "End": 2197,
+                        "Line": 59,
+                        "Column": 21
+                      },
+                      "Value": "createdNodes"
+                    },
+                    "Directives": []
+                  },
+                  {
+                    "Kind": "Field",
+                    "Alias": null,
+                    "Arguments": [],
+                    "Required": null,
+                    "SelectionSet": null,
+                    "Location": {
+                      "Start": 2280,
+                      "End": 2312,
+                      "Line": 62,
+                      "Column": 21
+                    },
+                    "Name": {
+                      "Kind": "Name",
+                      "Location": {
+                        "Start": 2280,
+                        "End": 2312,
+                        "Line": 62,
+                        "Column": 21
+                      },
+                      "Value": "deletedNodeIds"
+                    },
+                    "Directives": []
+                  }
+                ]
+              },
+              "Location": {
+                "Start": 2143,
+                "End": 2326,
+                "Line": 58,
+                "Column": 17
+              },
+              "Name": {
+                "Kind": "Name",
+                "Location": {
+                  "Start": 2143,
+                  "End": 2162,
+                  "Line": 58,
+                  "Column": 17
+                },
+                "Value": "additionalContext"
+              },
+              "Directives": []
+            }
+          ]
+        },
+        "Location": {
+          "Start": 23,
+          "End": 2336,
+          "Line": 2,
+          "Column": 13
+        },
+        "Name": {
+          "Kind": "Name",
+          "Location": {
+            "Start": 23,
+            "End": 36,
+            "Line": 2,
+            "Column": 13
+          },
+          "Value": "updateGraph"
+        },
+        "Directives": []
+      }
+    },
+    {
+      "Message": "`actionId` is a required field and cannot be null.",
+      "Code": null,
+      "Path": {
+        "Name": "updateGraph",
+        "Parent": {
+          "Length": 0,
+          "IsRoot": true
+        },
+        "Length": 1,
+        "IsRoot": false
+      },
+      "Locations": [
+        {
+          "Line": 5,
+          "Column": 25
+        }
+      ],
+      "Extensions": {
+        "field": "actionId",
+        "specifiedBy": "http://spec.graphql.org/October2021/#sec-Input-Object-Required-Fields"
+      },
+      "Exception": null,
+      "SyntaxNode": {
+        "Kind": "ObjectValue",
+        "Location": {
+          "Start": 124,
+          "End": 799,
+          "Line": 5,
+          "Column": 25
+        },
+        "Fields": [
+          {
+            "Kind": "ObjectField",
+            "Location": {
+              "Start": 154,
+              "End": 204,
+              "Line": 6,
+              "Column": 29
+            },
+            "Name": {
+              "Kind": "Name",
+              "Location": {
+                "Start": 154,
+                "End": 158,
+                "Line": 6,
+                "Column": 29
+              },
+              "Value": "tag"
+            },
+            "Value": {
+              "Kind": "StringValue",
+              "Location": {
+                "Start": 159,
+                "End": 204,
+                "Line": 6,
+                "Column": 34
+              },
+              "Value": "Bicycle",
+              "Block": false
+            }
+          },
+          {
+            "Kind": "ObjectField",
+            "Location": {
+              "Start": 198,
+              "End": 772,
+              "Line": 7,
+              "Column": 29
+            },
+            "Name": {
+              "Kind": "Name",
+              "Location": {
+                "Start": 198,
+                "End": 205,
+                "Line": 7,
+                "Column": 29
+              },
+              "Value": "fields"
+            },
+            "Value": {
+              "Kind": "ListValue",
+              "Location": {
+                "Start": 206,
+                "End": 772,
+                "Line": 7,
+                "Column": 37
+              },
+              "Items": [
+                {
+                  "Kind": "ObjectValue",
+                  "Location": {
+                    "Start": 240,
+                    "End": 414,
+                    "Line": 8,
+                    "Column": 33
+                  },
+                  "Fields": [
+                    {
+                      "Kind": "ObjectField",
+                      "Location": {
+                        "Start": 278,
+                        "End": 332,
+                        "Line": 9,
+                        "Column": 37
+                      },
+                      "Name": {
+                        "Kind": "Name",
+                        "Location": {
+                          "Start": 278,
+                          "End": 282,
+                          "Line": 9,
+                          "Column": 37
+                        },
+                        "Value": "key"
+                      },
+                      "Value": {
+                        "Kind": "StringValue",
+                        "Location": {
+                          "Start": 283,
+                          "End": 332,
+                          "Line": 9,
+                          "Column": 42
+                        },
+                        "Value": "Name",
+                        "Block": false
+                      }
+                    },
+                    {
+                      "Kind": "ObjectField",
+                      "Location": {
+                        "Start": 327,
+                        "End": 379,
+                        "Line": 10,
+                        "Column": 37
+                      },
+                      "Name": {
+                        "Kind": "Name",
+                        "Location": {
+                          "Start": 327,
+                          "End": 333,
+                          "Line": 10,
+                          "Column": 37
+                        },
+                        "Value": "value"
+                      },
+                      "Value": {
+                        "Kind": "StringValue",
+                        "Location": {
+                          "Start": 334,
+                          "End": 379,
+                          "Line": 10,
+                          "Column": 44
+                        },
+                        "Value": "Speedster",
+                        "Block": false
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Kind": "ObjectValue",
+                  "Location": {
+                    "Start": 413,
+                    "End": 582,
+                    "Line": 12,
+                    "Column": 33
+                  },
+                  "Fields": [
+                    {
+                      "Kind": "ObjectField",
+                      "Location": {
+                        "Start": 451,
+                        "End": 506,
+                        "Line": 13,
+                        "Column": 37
+                      },
+                      "Name": {
+                        "Kind": "Name",
+                        "Location": {
+                          "Start": 451,
+                          "End": 455,
+                          "Line": 13,
+                          "Column": 37
+                        },
+                        "Value": "key"
+                      },
+                      "Value": {
+                        "Kind": "StringValue",
+                        "Location": {
+                          "Start": 456,
+                          "End": 506,
+                          "Line": 13,
+                          "Column": 42
+                        },
+                        "Value": "Color",
+                        "Block": false
+                      }
+                    },
+                    {
+                      "Kind": "ObjectField",
+                      "Location": {
+                        "Start": 501,
+                        "End": 547,
+                        "Line": 14,
+                        "Column": 37
+                      },
+                      "Name": {
+                        "Kind": "Name",
+                        "Location": {
+                          "Start": 501,
+                          "End": 507,
+                          "Line": 14,
+                          "Column": 37
+                        },
+                        "Value": "value"
+                      },
+                      "Value": {
+                        "Kind": "StringValue",
+                        "Location": {
+                          "Start": 508,
+                          "End": 547,
+                          "Line": 14,
+                          "Column": 44
+                        },
+                        "Value": "Red",
+                        "Block": false
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Kind": "ObjectValue",
+                  "Location": {
+                    "Start": 581,
+                    "End": 746,
+                    "Line": 16,
+                    "Column": 33
+                  },
+                  "Fields": [
+                    {
+                      "Kind": "ObjectField",
+                      "Location": {
+                        "Start": 619,
+                        "End": 674,
+                        "Line": 17,
+                        "Column": 37
+                      },
+                      "Name": {
+                        "Kind": "Name",
+                        "Location": {
+                          "Start": 619,
+                          "End": 623,
+                          "Line": 17,
+                          "Column": 37
+                        },
+                        "Value": "key"
+                      },
+                      "Value": {
+                        "Kind": "StringValue",
+                        "Location": {
+                          "Start": 624,
+                          "End": 674,
+                          "Line": 17,
+                          "Column": 42
+                        },
+                        "Value": "Price",
+                        "Block": false
+                      }
+                    },
+                    {
+                      "Kind": "ObjectField",
+                      "Location": {
+                        "Start": 669,
+                        "End": 716,
+                        "Line": 18,
+                        "Column": 37
+                      },
+                      "Name": {
+                        "Kind": "Name",
+                        "Location": {
+                          "Start": 669,
+                          "End": 675,
+                          "Line": 18,
+                          "Column": 37
+                        },
+                        "Value": "value"
+                      },
+                      "Value": {
+                        "Kind": "FloatValue",
+                        "Location": {
+                          "Start": 676,
+                          "End": 716,
+                          "Line": 18,
+                          "Column": 44
+                        },
+                        "Format": "FixedPoint",
+                        "Value": "999.99"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "Extensions": null,
+  "Incremental": null,
+  "ContextData": {
+    "HotChocolate.Execution.ValidationErrors": true
+  },
+  "HasNext": null
+}

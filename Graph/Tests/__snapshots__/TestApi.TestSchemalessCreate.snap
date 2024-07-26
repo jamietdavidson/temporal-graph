@@ -1,0 +1,176 @@
+﻿{
+  "Label": null,
+  "Path": null,
+  "Data": {
+    "updateGraph": {
+      "state": "Live",
+      "nodes": [
+        {
+          "tag": "Bicycle",
+          "fields": [
+            {
+              "key": "Price",
+              "value": 999.99
+            },
+            {
+              "key": "Name",
+              "value": "Speedster"
+            },
+            {
+              "key": "Color",
+              "value": "Red"
+            }
+          ],
+          "edges": [
+            {
+              "key": "Seat",
+              "tag": "Saddle"
+            }
+          ],
+          "edgeCollections": [
+            {
+              "key": "Wheels",
+              "tag": "Wheel",
+              "count": 2,
+              "pageInfo": {
+                "hasNextPage": false,
+                "hasPreviousPage": false,
+                "firstId": null,
+                "lastId": null
+              }
+            }
+          ]
+        },
+        {
+          "tag": "Saddle",
+          "fields": [],
+          "edges": [],
+          "edgeCollections": []
+        },
+        {
+          "tag": "Wheel",
+          "fields": [],
+          "edges": [],
+          "edgeCollections": [
+            {
+              "key": "Spokes",
+              "tag": "Spoke",
+              "count": 2,
+              "pageInfo": {
+                "hasNextPage": false,
+                "hasPreviousPage": false,
+                "firstId": null,
+                "lastId": null
+              }
+            }
+          ]
+        },
+        {
+          "tag": "Wheel",
+          "fields": [],
+          "edges": [],
+          "edgeCollections": []
+        },
+        {
+          "tag": "Spoke",
+          "fields": [],
+          "edges": [],
+          "edgeCollections": []
+        },
+        {
+          "tag": "Spoke",
+          "fields": [],
+          "edges": [],
+          "edgeCollections": []
+        }
+      ],
+      "additionalContext": {
+        "createdNodes": [
+          {
+            "tag": "Bicycle",
+            "fields": [
+              {
+                "key": "Price",
+                "value": 999.99
+              },
+              {
+                "key": "Name",
+                "value": "Speedster"
+              },
+              {
+                "key": "Color",
+                "value": "Red"
+              }
+            ],
+            "edges": [
+              {
+                "key": "Seat",
+                "tag": "Saddle"
+              }
+            ],
+            "edgeCollections": [
+              {
+                "key": "Wheels",
+                "tag": "Wheel",
+                "count": 2,
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "hasPreviousPage": false,
+                  "firstId": null,
+                  "lastId": null
+                }
+              }
+            ]
+          },
+          {
+            "tag": "Saddle",
+            "fields": [],
+            "edges": [],
+            "edgeCollections": []
+          },
+          {
+            "tag": "Wheel",
+            "fields": [],
+            "edges": [],
+            "edgeCollections": [
+              {
+                "key": "Spokes",
+                "tag": "Spoke",
+                "count": 2,
+                "pageInfo": {
+                  "hasNextPage": false,
+                  "hasPreviousPage": false,
+                  "firstId": null,
+                  "lastId": null
+                }
+              }
+            ]
+          },
+          {
+            "tag": "Wheel",
+            "fields": [],
+            "edges": [],
+            "edgeCollections": []
+          },
+          {
+            "tag": "Spoke",
+            "fields": [],
+            "edges": [],
+            "edgeCollections": []
+          },
+          {
+            "tag": "Spoke",
+            "fields": [],
+            "edges": [],
+            "edgeCollections": []
+          }
+        ],
+        "deletedNodeIds": null
+      }
+    }
+  },
+  "Errors": null,
+  "Extensions": null,
+  "ContextData": null,
+  "HasNext": null
+}
